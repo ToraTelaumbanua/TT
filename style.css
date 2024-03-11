@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #000;
+  overflow: hidden;
+  overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+h2 {
+  font-size: 4em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: justify;
+  padding: 150px;
+  overflow: auto; /* Enable scrolling for paragraphs */
+  max-height: 300px; /* Adjust max-height as needed */
+}
+
+.cursor {
+  height: 200px;
+  width: 200px;
+  background-color: #fffae2;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
+
+br {
+    text-align: center;
+}
+
+.content {
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: auto;
+    padding: 20px;
+}
